@@ -1,15 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [595] using StatReload
-INFO:     Started server process [597]
+INFO:     Started reloader process [641] using StatReload
+INFO:     Started server process [643]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:51578 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:51584 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51616 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51604 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51620 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51584 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51604 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51636 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:51636 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60778 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:60810 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60846 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60846 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60838 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60856 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56148 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:56148 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
