@@ -41,8 +41,13 @@ class Product(BaseModel):
 # Add your own schemas here:
 # --------------------------------------------------
 
-# Note: The Flames database viewer will automatically:
-# 1. Read these schemas from GET /schema endpoint
-# 2. Use them for document validation when creating/editing
-# 3. Handle all database operations (CRUD) directly
-# 4. You don't need to create any database endpoints!
+class Review(BaseModel):
+    """
+    Client reviews for JP Creation
+    Collection name: "review"
+    """
+    name: str = Field(..., min_length=2, max_length=80, description="Reviewer name")
+    rating: int = Field(..., ge=1, le=5, description="Star rating (1-5)")
+    message: str = Field(..., min_length=5, max_length=1000, description="Review text")
+    event_type: Optional[str] = Field(None, max_length=60, description="Optional: Wedding / Sangeet / Reception / etc.")
+    instagram: Optional[str] = Field(None, max_length=80, description="Optional Instagram handle of reviewer")
