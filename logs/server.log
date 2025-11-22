@@ -1,17 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [641] using StatReload
-INFO:     Started server process [643]
+INFO:     Started reloader process [725] using StatReload
+INFO:     Started server process [727]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:60778 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:60810 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60846 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60846 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60838 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60794 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:60856 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:56148 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:56148 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38516 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:38532 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38540 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38532 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38556 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38540 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38556 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47434 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47446 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47458 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47458 - "GET /api/reviews?limit=12 HTTP/1.1" 200 OK
